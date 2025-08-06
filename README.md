@@ -15,10 +15,10 @@
 ### 📸 Preview
 
 * The default popup in Jira
-<img width="1920" height="1080" alt="Screenshot 2025-05-26 at 13 12 52 (2)" src="https://github.com/user-attachments/assets/1f0f7b6c-12b7-4aa3-9d62-0c2323d73588" />
+<img width="300" alt="popup before" src="https://github.com/user-attachments/assets/19fde30d-64d3-4cf4-813b-a01a9ed796a2" />
 
 * My custom popup
-<img width="500" height="421" alt="Screenshot 2025-08-06 at 20 32 57" src="https://github.com/user-attachments/assets/0dd3bc27-5e26-4877-9806-21e9c476e1e0" />
+<img width="300" alt="popup after" src="https://github.com/user-attachments/assets/fba2c997-398f-4e0a-a7f5-a117c8115df6" />
 
 ---
 
