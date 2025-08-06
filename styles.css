@@ -1,0 +1,71 @@
+#custom-sprint-popup {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  max-height: 800px;
+  background: white;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  overflow-y: auto;
+  z-index: 9999;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.popup-header {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.popup-close-btn {
+  font-weight: lighter;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: gray;
+}
+
+.popup-body {
+  padding: 12px;
+}
+
+.goal-section {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}
+
+.goal-item {
+  margin-left: 12px;
+  padding: 4px 0;
+  color: #555;
+}
+
+.goal-plain {
+  color: #777;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.popup-notfound {
+  display: grid;
+  min-width: 400px;
+  color: #b1883c;
+  font-weight: bold;
+}
+
+.popup-notfound-text {
+  font-weight: normal;
+  font-size: small;
+}

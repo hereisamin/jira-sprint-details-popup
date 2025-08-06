@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Sprint Goals Formatter",
+  "version": "1.0",
+  "description": "Replaces Jira's sprint goals popup with a better formatted one.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.atlassian.net/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
