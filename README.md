@@ -14,10 +14,11 @@
 
 ### 📸 Preview
 
-*Add screenshots or a short GIF here showing:*
-
 * The default popup in Jira
-* Your custom popup
+<img width="1920" height="1080" alt="Screenshot 2025-05-26 at 13 12 52 (2)" src="https://github.com/user-attachments/assets/1f0f7b6c-12b7-4aa3-9d62-0c2323d73588" />
+
+* My custom popup
+<img width="500" height="421" alt="Screenshot 2025-08-06 at 20 32 57" src="https://github.com/user-attachments/assets/0dd3bc27-5e26-4877-9806-21e9c476e1e0" />
 
 ---
 
@@ -33,13 +34,9 @@ This extension uses a `MutationObserver` to detect when Jira injects its sprint 
 
 1. Clone or download this repository
 2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer Mode**
+3. Enable **Developer Mode** (right top)
 4. Click **Load unpacked**
 5. Select the extension folder
-
-#### Option 2: Chrome Web Store (coming soon)
-
-*Once published, link will go here*
 
 ---
 
@@ -58,15 +55,6 @@ To modify:
 
 * Edit `content.js` to adjust behavior
 * Tweak styles in `styles.css` if needed
-
----
-
-### 🚀 Publishing (for maintainers)
-
-1. Zip the folder contents (not the folder itself)
-2. Upload to [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)
-3. Fill in metadata, category: `Productivity`
-4. Submit for review
 
 ---
 
