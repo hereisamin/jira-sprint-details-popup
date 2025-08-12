@@ -39,7 +39,7 @@ function initObserver() {
   const observer = new MutationObserver(mutations => {
     for (const mutation of mutations) {
       for (const node of mutation.addedNodes) {
-        if (node.nodeType === 1 && node.getAttribute('role') === 'dialog') {
+        if (node.nodeType === 1 && node.getAttribute('role') === 'dialog' && node.getAttribute('aria-label')?.toLowerCase().includes('sprint')) {
           // Found Jira's popup
           const goalsHTML = extractSprintGoals(node);
 
